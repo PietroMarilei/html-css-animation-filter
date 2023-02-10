@@ -384,7 +384,7 @@
 
 /* ---------------------------------------------------------------------------------------------------------- */
 .ex-13-button:hover .ex-13-top-white {
-    animation: move-pad-up2 3s;
+    animation: move-pad-up2p 3s;
 
 
 }
@@ -428,78 +428,48 @@
 
 }
 
-/* -----------------------------------------seconda parte animation matta */
-/* .ex-13-button:hover .ex-13-top-white {
-    animation: moveTopWhiteCompletely 2s linear;
-}
-
-@keyframes moveTopWhiteCompletely {
-    0% {
-        left: 10%;
-        top: -10px;
-    }
-
-    30% {
-        left: calc(100% - 30px);
-        top: -10px;
-    }
-
-    45% {
-        left: calc(100% - 30px);
-        top: 100%;
-    }
-
-    75% {
-        left: 0;
-        top: 100%;
-    }
-
-    90% {
-        left: -15px;
-        top: -10px;
-    }
-
-    100% {
-        left: 10%;
-        top: -10px;
-    }
-}
+/* ---------------------------------animazione quadratino in basso */
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: moveBottomWhiteCompletely 2s linear;
+    animation: move-pad-down2 3s;
 }
 
-@keyframes moveBottomWhiteCompletely {
+@keyframes move-pad-down2 {
     0% {
-        bottom: -10px;
         right: 20%;
-    }
-
-    30% {
-        right: calc(100% - 30px);
         bottom: -10px;
     }
 
-    45% {
-        right: calc(100% - 30px);
-        bottom: 100%;
+    25% {
+        right: calc(100% - 60px + 3px);
+        bottom: -10px;
+    }
+
+    27% {
+        right: calc(100% - 60px + 3px);
+        bottom: -10px;
+    }
+
+    50% {
+        right: calc(100% - 60px + 3px);
+        bottom: 100%
     }
 
     75% {
-        right: 0;
-        bottom: 100%;
+        right: -3px;
+        bottom: 100%
     }
 
-    90% {
-        right: -15px;
-        bottom: -10px;
+    98% {
+        right: -3px;
+        top: -10px
     }
 
     100% {
-        bottom: -10px;
-        right: 20%;
+        right: 1%;
+        top: -10px;
     }
+
 }
 
-*/
-*/
+/* -----------------------------------------seconda parte animation matta non funziona*/
