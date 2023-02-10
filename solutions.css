@@ -397,6 +397,7 @@
 
     25% {
         left: calc(100% - 60px + 3px);
+        top: -10px;
     }
 
     27% {
@@ -410,17 +411,18 @@
     }
 
     75% {
-        left: 0;
+        left: -3px;
         top: 100%
     }
 
-    80% {
-        right: calc(100% - 60px+3px);
-        top: 100%
+    98% {
+        left: -3px;
+        top: -10px
     }
+
 
     100% {
-        left: 0;
+        left: 1%;
         top: -10px;
     }
 
